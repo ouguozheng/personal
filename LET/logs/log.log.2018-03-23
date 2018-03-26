@@ -1,0 +1,592 @@
+2018-03-23 15:55:49  [ NioProcessor-2:0 ] - [ INFO ]  create session:1
+2018-03-23 15:55:49  [ NioProcessor-3:0 ] - [ INFO ]  create session:2
+2018-03-23 15:55:49  [ NioProcessor-2:6 ] - [ INFO ]  open session:1
+2018-03-23 15:55:49  [ NioProcessor-3:6 ] - [ INFO ]  open session:2
+2018-03-23 15:55:49  [ NioProcessor-2:17 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=387 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:1
+2018-03-23 15:56:04  [ NioProcessor-3:15041 ] - [ INFO ]  input  session:2
+2018-03-23 15:56:04  [ NioProcessor-3:15043 ] - [ INFO ]  close session:2
+2018-03-23 15:56:43  [ NioProcessor-2:53143 ] - [ INFO ]  input  session:1
+2018-03-23 15:56:43  [ NioProcessor-2:53143 ] - [ INFO ]  close session:1
+2018-03-23 16:02:40  [ NioProcessor-4:410596 ] - [ INFO ]  create session:3
+2018-03-23 16:02:40  [ NioProcessor-4:410596 ] - [ INFO ]  open session:3
+2018-03-23 16:02:40  [ NioProcessor-5:410597 ] - [ INFO ]  create session:4
+2018-03-23 16:02:40  [ NioProcessor-5:410597 ] - [ INFO ]  open session:4
+2018-03-23 16:02:40  [ NioProcessor-4:410598 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=387 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:3
+2018-03-23 16:02:49  [ NioProcessor-4:419805 ] - [ INFO ]  input  session:3
+2018-03-23 16:02:49  [ NioProcessor-4:419805 ] - [ INFO ]  close session:3
+2018-03-23 16:02:49  [ NioProcessor-6:419815 ] - [ INFO ]  create session:5
+2018-03-23 16:02:49  [ NioProcessor-5:419815 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=397 cap=2048: 47 45 54 20 2F 3F 74 65 73 74 74 64 73 61 74 20...] session:4
+2018-03-23 16:02:49  [ NioProcessor-6:419816 ] - [ INFO ]  open session:5
+2018-03-23 16:03:10  [ NioProcessor-5:440470 ] - [ INFO ]  input  session:4
+2018-03-23 16:03:10  [ NioProcessor-5:440471 ] - [ INFO ]  close session:4
+2018-03-23 16:03:23  [ NioProcessor-6:453711 ] - [ INFO ]  input  session:5
+2018-03-23 16:03:23  [ NioProcessor-6:453712 ] - [ INFO ]  close session:5
+2018-03-23 16:03:41  [ NioProcessor-7:471836 ] - [ INFO ]  create session:6
+2018-03-23 16:03:41  [ NioProcessor-7:471836 ] - [ INFO ]  open session:6
+2018-03-23 16:03:41  [ NioProcessor-7:471837 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=387 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:6
+2018-03-23 16:03:41  [ NioProcessor-8:471837 ] - [ INFO ]  create session:7
+2018-03-23 16:03:41  [ NioProcessor-8:471838 ] - [ INFO ]  open session:7
+2018-03-23 16:03:45  [ NioProcessor-8:475764 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=396 cap=2048: 47 45 54 20 2F 3F 64 73 61 64 61 73 64 61 20 48...] session:7
+2018-03-23 16:03:48  [ NioProcessor-7:478840 ] - [ INFO ]  input  session:6
+2018-03-23 16:03:48  [ NioProcessor-7:478840 ] - [ INFO ]  close session:6
+2018-03-23 16:05:13  [ NioProcessor-8:563314 ] - [ INFO ]  input  session:7
+2018-03-23 16:05:13  [ NioProcessor-8:563314 ] - [ INFO ]  close session:7
+2018-03-23 16:05:27  [ NioProcessor-9:577461 ] - [ INFO ]  create session:8
+2018-03-23 16:05:27  [ NioProcessor-9:577461 ] - [ INFO ]  open session:8
+2018-03-23 16:05:27  [ NioProcessor-9:577463 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=399 cap=2048: 47 45 54 20 2F 3F 64 73 61 6A 64 73 61 68 64 73...] session:8
+2018-03-23 16:05:27  [ NioProcessor-1:577463 ] - [ INFO ]  create session:9
+2018-03-23 16:05:27  [ NioProcessor-1:577464 ] - [ INFO ]  open session:9
+2018-03-23 16:05:35  [ NioProcessor-9:586045 ] - [ INFO ]  input  session:8
+2018-03-23 16:05:35  [ NioProcessor-9:586046 ] - [ INFO ]  close session:8
+2018-03-23 16:06:10  [ NioProcessor-2:0 ] - [ INFO ]  create session:1
+2018-03-23 16:06:10  [ NioProcessor-3:0 ] - [ INFO ]  create session:2
+2018-03-23 16:06:10  [ NioProcessor-2:5 ] - [ INFO ]  open session:1
+2018-03-23 16:06:10  [ NioProcessor-3:5 ] - [ INFO ]  open session:2
+2018-03-23 16:06:10  [ NioProcessor-2:22 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:1
+2018-03-23 16:06:19  [ NioProcessor-2:9609 ] - [ INFO ]  input  session:1
+2018-03-23 16:06:19  [ NioProcessor-2:9611 ] - [ INFO ]  close session:1
+2018-03-23 16:06:19  [ NioProcessor-3:9612 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:2
+2018-03-23 16:06:19  [ NioProcessor-4:9615 ] - [ INFO ]  create session:3
+2018-03-23 16:06:19  [ NioProcessor-4:9615 ] - [ INFO ]  open session:3
+2018-03-23 16:06:23  [ NioProcessor-3:13239 ] - [ INFO ]  input  session:2
+2018-03-23 16:06:23  [ NioProcessor-3:13239 ] - [ INFO ]  close session:2
+2018-03-23 16:06:23  [ NioProcessor-5:13242 ] - [ INFO ]  create session:4
+2018-03-23 16:06:23  [ NioProcessor-4:13242 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:3
+2018-03-23 16:06:23  [ NioProcessor-5:13242 ] - [ INFO ]  open session:4
+2018-03-23 16:06:24  [ NioProcessor-4:14280 ] - [ INFO ]  input  session:3
+2018-03-23 16:06:24  [ NioProcessor-4:14283 ] - [ INFO ]  close session:3
+2018-03-23 16:06:24  [ NioProcessor-5:14283 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:4
+2018-03-23 16:06:24  [ NioProcessor-6:14283 ] - [ INFO ]  create session:5
+2018-03-23 16:06:24  [ NioProcessor-6:14284 ] - [ INFO ]  open session:5
+2018-03-23 16:06:25  [ NioProcessor-5:15070 ] - [ INFO ]  input  session:4
+2018-03-23 16:06:25  [ NioProcessor-5:15071 ] - [ INFO ]  close session:4
+2018-03-23 16:06:25  [ NioProcessor-7:15073 ] - [ INFO ]  create session:6
+2018-03-23 16:06:25  [ NioProcessor-7:15073 ] - [ INFO ]  open session:6
+2018-03-23 16:06:25  [ NioProcessor-6:15073 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:5
+2018-03-23 16:06:25  [ NioProcessor-6:15627 ] - [ INFO ]  input  session:5
+2018-03-23 16:06:25  [ NioProcessor-6:15627 ] - [ INFO ]  close session:5
+2018-03-23 16:06:25  [ NioProcessor-7:15630 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:6
+2018-03-23 16:06:25  [ NioProcessor-8:15630 ] - [ INFO ]  create session:7
+2018-03-23 16:06:25  [ NioProcessor-8:15630 ] - [ INFO ]  open session:7
+2018-03-23 16:06:26  [ NioProcessor-7:16058 ] - [ INFO ]  input  session:6
+2018-03-23 16:06:26  [ NioProcessor-7:16059 ] - [ INFO ]  close session:6
+2018-03-23 16:06:26  [ NioProcessor-8:16061 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:7
+2018-03-23 16:06:26  [ NioProcessor-9:16061 ] - [ INFO ]  create session:8
+2018-03-23 16:06:26  [ NioProcessor-9:16061 ] - [ INFO ]  open session:8
+2018-03-23 16:06:26  [ NioProcessor-8:16295 ] - [ INFO ]  input  session:7
+2018-03-23 16:06:26  [ NioProcessor-8:16298 ] - [ INFO ]  close session:7
+2018-03-23 16:06:26  [ NioProcessor-1:16300 ] - [ INFO ]  create session:9
+2018-03-23 16:06:26  [ NioProcessor-9:16300 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:8
+2018-03-23 16:06:26  [ NioProcessor-1:16300 ] - [ INFO ]  open session:9
+2018-03-23 16:06:26  [ NioProcessor-9:16503 ] - [ INFO ]  input  session:8
+2018-03-23 16:06:26  [ NioProcessor-9:16504 ] - [ INFO ]  close session:8
+2018-03-23 16:06:26  [ NioProcessor-1:16506 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:9
+2018-03-23 16:06:26  [ NioProcessor-2:16506 ] - [ INFO ]  create session:10
+2018-03-23 16:06:26  [ NioProcessor-2:16507 ] - [ INFO ]  open session:10
+2018-03-23 16:06:26  [ NioProcessor-1:16708 ] - [ INFO ]  input  session:9
+2018-03-23 16:06:26  [ NioProcessor-1:16709 ] - [ INFO ]  close session:9
+2018-03-23 16:06:26  [ NioProcessor-2:16711 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:10
+2018-03-23 16:06:26  [ NioProcessor-3:16711 ] - [ INFO ]  create session:11
+2018-03-23 16:06:26  [ NioProcessor-3:16712 ] - [ INFO ]  open session:11
+2018-03-23 16:06:26  [ NioProcessor-2:16887 ] - [ INFO ]  input  session:10
+2018-03-23 16:06:26  [ NioProcessor-2:16887 ] - [ INFO ]  close session:10
+2018-03-23 16:06:26  [ NioProcessor-3:16890 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:11
+2018-03-23 16:06:26  [ NioProcessor-4:16890 ] - [ INFO ]  create session:12
+2018-03-23 16:06:26  [ NioProcessor-4:16890 ] - [ INFO ]  open session:12
+2018-03-23 16:06:27  [ NioProcessor-3:17060 ] - [ INFO ]  input  session:11
+2018-03-23 16:06:27  [ NioProcessor-3:17061 ] - [ INFO ]  close session:11
+2018-03-23 16:06:27  [ NioProcessor-5:17063 ] - [ INFO ]  create session:13
+2018-03-23 16:06:27  [ NioProcessor-4:17063 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:12
+2018-03-23 16:06:27  [ NioProcessor-5:17064 ] - [ INFO ]  open session:13
+2018-03-23 16:06:27  [ NioProcessor-4:17232 ] - [ INFO ]  input  session:12
+2018-03-23 16:06:27  [ NioProcessor-4:17233 ] - [ INFO ]  close session:12
+2018-03-23 16:06:27  [ NioProcessor-6:17235 ] - [ INFO ]  create session:14
+2018-03-23 16:06:27  [ NioProcessor-6:17235 ] - [ INFO ]  open session:14
+2018-03-23 16:06:27  [ NioProcessor-5:17235 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:13
+2018-03-23 16:06:27  [ NioProcessor-5:17397 ] - [ INFO ]  input  session:13
+2018-03-23 16:06:27  [ NioProcessor-5:17398 ] - [ INFO ]  close session:13
+2018-03-23 16:06:27  [ NioProcessor-6:17400 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:14
+2018-03-23 16:06:27  [ NioProcessor-7:17400 ] - [ INFO ]  create session:15
+2018-03-23 16:06:27  [ NioProcessor-7:17400 ] - [ INFO ]  open session:15
+2018-03-23 16:06:29  [ NioProcessor-6:19592 ] - [ INFO ]  input  session:14
+2018-03-23 16:06:29  [ NioProcessor-6:19593 ] - [ INFO ]  close session:14
+2018-03-23 16:20:41  [ NioProcessor-3:0 ] - [ INFO ]  create session:2
+2018-03-23 16:20:41  [ NioProcessor-2:0 ] - [ INFO ]  create session:1
+2018-03-23 16:20:41  [ NioProcessor-3:5 ] - [ INFO ]  open session:2
+2018-03-23 16:20:41  [ NioProcessor-2:5 ] - [ INFO ]  open session:1
+2018-03-23 16:20:41  [ NioProcessor-2:25 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=387 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:1
+2018-03-23 16:20:41  [ NioProcessor-2:27 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+java.lang.IllegalStateException: Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:860)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:762)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$700(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1102)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-23 16:20:41  [ NioProcessor-2:30 ] - [ INFO ]  ex session:1
+2018-03-23 16:20:41  [ NioProcessor-2:30 ] - [ ERROR ]  ex:Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+2018-03-23 16:20:41  [ NioProcessor-2:31 ] - [ INFO ]  close session:1
+2018-03-23 16:20:41  [ NioProcessor-3:32 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=387 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:2
+2018-03-23 16:20:41  [ NioProcessor-3:33 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+java.lang.IllegalStateException: Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:860)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:762)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$700(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1102)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-23 16:20:41  [ NioProcessor-3:33 ] - [ INFO ]  ex session:2
+2018-03-23 16:20:41  [ NioProcessor-3:34 ] - [ ERROR ]  ex:Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+2018-03-23 16:20:41  [ NioProcessor-3:34 ] - [ INFO ]  close session:2
+2018-03-23 16:20:41  [ NioProcessor-4:37 ] - [ INFO ]  create session:3
+2018-03-23 16:20:41  [ NioProcessor-4:38 ] - [ INFO ]  open session:3
+2018-03-23 16:20:41  [ NioProcessor-4:40 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=387 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:3
+2018-03-23 16:20:41  [ NioProcessor-4:40 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+java.lang.IllegalStateException: Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:860)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:762)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$700(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1102)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-23 16:20:41  [ NioProcessor-4:41 ] - [ INFO ]  ex session:3
+2018-03-23 16:20:41  [ NioProcessor-4:42 ] - [ ERROR ]  ex:Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+2018-03-23 16:20:41  [ NioProcessor-4:42 ] - [ INFO ]  close session:3
+2018-03-23 16:20:41  [ NioProcessor-5:195 ] - [ INFO ]  create session:4
+2018-03-23 16:20:41  [ NioProcessor-5:196 ] - [ INFO ]  open session:4
+2018-03-23 16:20:41  [ NioProcessor-6:200 ] - [ INFO ]  create session:5
+2018-03-23 16:20:41  [ NioProcessor-5:200 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:4
+2018-03-23 16:20:41  [ NioProcessor-6:200 ] - [ INFO ]  open session:5
+2018-03-23 16:20:41  [ NioProcessor-5:201 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+java.lang.IllegalStateException: Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:860)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:762)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$700(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1102)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-23 16:20:41  [ NioProcessor-5:202 ] - [ INFO ]  ex session:4
+2018-03-23 16:20:41  [ NioProcessor-5:202 ] - [ ERROR ]  ex:Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+2018-03-23 16:20:41  [ NioProcessor-5:203 ] - [ INFO ]  close session:4
+2018-03-23 16:20:41  [ NioProcessor-6:204 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:5
+2018-03-23 16:20:41  [ NioProcessor-6:204 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+java.lang.IllegalStateException: Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:860)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:762)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$700(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1102)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-23 16:20:41  [ NioProcessor-6:205 ] - [ INFO ]  ex session:5
+2018-03-23 16:20:41  [ NioProcessor-6:205 ] - [ ERROR ]  ex:Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+2018-03-23 16:20:41  [ NioProcessor-6:209 ] - [ INFO ]  close session:5
+2018-03-23 16:20:41  [ NioProcessor-7:212 ] - [ INFO ]  create session:6
+2018-03-23 16:20:41  [ NioProcessor-7:212 ] - [ INFO ]  open session:6
+2018-03-23 16:20:41  [ NioProcessor-7:213 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:6
+2018-03-23 16:20:41  [ NioProcessor-7:213 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+java.lang.IllegalStateException: Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:860)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:762)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$700(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1102)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-23 16:20:41  [ NioProcessor-7:214 ] - [ INFO ]  ex session:6
+2018-03-23 16:20:41  [ NioProcessor-7:214 ] - [ ERROR ]  ex:Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+2018-03-23 16:20:41  [ NioProcessor-7:215 ] - [ INFO ]  close session:6
+2018-03-23 16:20:46  [ NioProcessor-8:5222 ] - [ INFO ]  create session:7
+2018-03-23 16:20:46  [ NioProcessor-8:5222 ] - [ INFO ]  open session:7
+2018-03-23 16:20:46  [ NioProcessor-9:5224 ] - [ INFO ]  create session:8
+2018-03-23 16:20:46  [ NioProcessor-8:5224 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:7
+2018-03-23 16:20:46  [ NioProcessor-9:5224 ] - [ INFO ]  open session:8
+2018-03-23 16:20:46  [ NioProcessor-8:5225 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+java.lang.IllegalStateException: Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:860)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:762)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$700(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1102)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-23 16:20:46  [ NioProcessor-8:5225 ] - [ INFO ]  ex session:7
+2018-03-23 16:20:46  [ NioProcessor-8:5226 ] - [ ERROR ]  ex:Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+2018-03-23 16:20:46  [ NioProcessor-8:5226 ] - [ INFO ]  close session:7
+2018-03-23 16:20:46  [ NioProcessor-9:5228 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:8
+2018-03-23 16:20:46  [ NioProcessor-9:5228 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+java.lang.IllegalStateException: Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:860)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:762)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$700(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1102)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-23 16:20:46  [ NioProcessor-9:5229 ] - [ INFO ]  ex session:8
+2018-03-23 16:20:46  [ NioProcessor-9:5229 ] - [ ERROR ]  ex:Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+2018-03-23 16:20:46  [ NioProcessor-9:5230 ] - [ INFO ]  close session:8
+2018-03-23 16:20:46  [ NioProcessor-1:5233 ] - [ INFO ]  create session:9
+2018-03-23 16:20:46  [ NioProcessor-1:5233 ] - [ INFO ]  open session:9
+2018-03-23 16:20:46  [ NioProcessor-1:5234 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:9
+2018-03-23 16:20:46  [ NioProcessor-1:5234 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+java.lang.IllegalStateException: Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:860)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:762)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$700(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1102)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-23 16:20:46  [ NioProcessor-1:5235 ] - [ INFO ]  ex session:9
+2018-03-23 16:20:46  [ NioProcessor-1:5235 ] - [ ERROR ]  ex:Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+2018-03-23 16:20:46  [ NioProcessor-1:5235 ] - [ INFO ]  close session:9
+2018-03-23 16:21:16  [ NioProcessor-2:35248 ] - [ INFO ]  create session:10
+2018-03-23 16:21:16  [ NioProcessor-2:35249 ] - [ INFO ]  open session:10
+2018-03-23 16:21:16  [ NioProcessor-3:35250 ] - [ INFO ]  create session:11
+2018-03-23 16:21:16  [ NioProcessor-2:35250 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:10
+2018-03-23 16:21:16  [ NioProcessor-3:35250 ] - [ INFO ]  open session:11
+2018-03-23 16:21:16  [ NioProcessor-2:35251 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+java.lang.IllegalStateException: Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:860)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:762)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$700(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1102)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-23 16:21:16  [ NioProcessor-2:35251 ] - [ INFO ]  ex session:10
+2018-03-23 16:21:16  [ NioProcessor-2:35252 ] - [ ERROR ]  ex:Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+2018-03-23 16:21:16  [ NioProcessor-2:35252 ] - [ INFO ]  close session:10
+2018-03-23 16:21:16  [ NioProcessor-3:35253 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:11
+2018-03-23 16:21:16  [ NioProcessor-3:35253 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+java.lang.IllegalStateException: Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:860)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:762)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$700(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1102)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-23 16:21:16  [ NioProcessor-3:35254 ] - [ INFO ]  ex session:11
+2018-03-23 16:21:16  [ NioProcessor-3:35254 ] - [ ERROR ]  ex:Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+2018-03-23 16:21:16  [ NioProcessor-3:35255 ] - [ INFO ]  close session:11
+2018-03-23 16:21:16  [ NioProcessor-4:35257 ] - [ INFO ]  create session:12
+2018-03-23 16:21:16  [ NioProcessor-4:35258 ] - [ INFO ]  open session:12
+2018-03-23 16:21:16  [ NioProcessor-4:35258 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:12
+2018-03-23 16:21:16  [ NioProcessor-4:35258 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+java.lang.IllegalStateException: Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:860)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:762)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$700(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1102)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-23 16:21:16  [ NioProcessor-4:35259 ] - [ INFO ]  ex session:12
+2018-03-23 16:21:16  [ NioProcessor-4:35259 ] - [ ERROR ]  ex:Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+2018-03-23 16:21:16  [ NioProcessor-4:35259 ] - [ INFO ]  close session:12
+2018-03-23 16:22:40  [ NioProcessor-3:0 ] - [ INFO ]  create session:2
+2018-03-23 16:22:40  [ NioProcessor-2:0 ] - [ INFO ]  create session:1
+2018-03-23 16:22:40  [ NioProcessor-2:4 ] - [ INFO ]  open session:1
+2018-03-23 16:22:40  [ NioProcessor-3:4 ] - [ INFO ]  open session:2
+2018-03-23 16:22:40  [ NioProcessor-2:22 ] - [ INFO ]  getMessage:HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...] session:1
+2018-03-23 16:22:40  [ NioProcessor-2:24 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+java.lang.IllegalStateException: Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flushNow(AbstractPollingIoProcessor.java:860)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.flush(AbstractPollingIoProcessor.java:762)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$700(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1102)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-23 16:22:40  [ NioProcessor-2:26 ] - [ INFO ]  ex session:1
+2018-03-23 16:22:40  [ NioProcessor-2:26 ] - [ ERROR ]  ex:Don't know how to handle message of type 'com.DeliverySessionCreationType'.  Are you missing a protocol encoder?
+2018-03-23 16:23:07  [ NioProcessor-3:26243 ] - [ INFO ]  input  session:2
+2018-03-23 16:23:07  [ NioProcessor-3:26245 ] - [ INFO ]  close session:2
+2018-03-23 16:23:17  [ NioProcessor-2:36394 ] - [ INFO ]  input  session:1
+2018-03-23 16:23:17  [ NioProcessor-2:36395 ] - [ INFO ]  close session:1
+2018-03-23 16:25:30  [ NioProcessor-3:0 ] - [ INFO ]  CREATED
+2018-03-23 16:25:30  [ NioProcessor-2:0 ] - [ INFO ]  CREATED
+2018-03-23 16:25:30  [ NioProcessor-2:6 ] - [ INFO ]  create session:1
+2018-03-23 16:25:30  [ NioProcessor-3:6 ] - [ INFO ]  create session:2
+2018-03-23 16:25:30  [ NioProcessor-3:7 ] - [ INFO ]  OPENED
+2018-03-23 16:25:30  [ NioProcessor-2:7 ] - [ INFO ]  OPENED
+2018-03-23 16:25:30  [ NioProcessor-2:7 ] - [ INFO ]  open session:1
+2018-03-23 16:25:30  [ NioProcessor-3:7 ] - [ INFO ]  open session:2
+2018-03-23 16:25:30  [ NioProcessor-2:9 ] - [ INFO ]  RECEIVED: HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...]
+2018-03-23 16:25:30  [ NioProcessor-2:11 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+org.apache.mina.filter.codec.ProtocolDecoderException: org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856 (Hexdump: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 20 31 32 37 2E 30 2E 30 2E 31 3A 35 30 30 30 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 43 61 63 68 65 2D 43 6F 6E 74 72 6F 6C 3A 20 6D 61 78 2D 61 67 65 3D 30 0D 0A 55 70 67 72 61 64 65 2D 49 6E 73 65 63 75 72 65 2D 52 65 71 75 65 73 74 73 3A 20 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 57 69 6E 64 6F 77 73 20 4E 54 20 31 30 2E 30 3B 20 57 69 6E 36 34 3B 20 78 36 34 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 37 2E 33 36 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 43 68 72 6F 6D 65 2F 36 35 2E 30 2E 33 33 32 35 2E 31 38 31 20 53 61 66 61 72 69 2F 35 33 37 2E 33 36 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 68 74 6D 6C 2B 78 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 6D 6C 3B 71 3D 30 2E 39 2C 69 6D 61 67 65 2F 77 65 62 70 2C 69 6D 61 67 65 2F 61 70 6E 67 2C 2A 2F 2A 3B 71 3D 30 2E 38 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 20 64 65 66 6C 61 74 65 2C 20 62 72 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 2C 7A 68 3B 71 3D 30 2E 39 0D 0A 0D 0A)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:239)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.filter.logging.LoggingFilter.messageReceived(LoggingFilter.java:208)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:535)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:697)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856
+	at org.apache.mina.core.buffer.AbstractIoBuffer.prefixedDataAvailable(AbstractIoBuffer.java:2305)
+	at org.apache.mina.filter.codec.serialization.ObjectSerializationDecoder.doDecode(ObjectSerializationDecoder.java:93)
+	at org.apache.mina.filter.codec.CumulativeProtocolDecoder.decode(CumulativeProtocolDecoder.java:176)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:230)
+	... 19 more
+2018-03-23 16:25:30  [ NioProcessor-2:15 ] - [ INFO ]  ex session:1
+2018-03-23 16:25:30  [ NioProcessor-2:16 ] - [ ERROR ]  ex:org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856 (Hexdump: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 20 31 32 37 2E 30 2E 30 2E 31 3A 35 30 30 30 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 43 61 63 68 65 2D 43 6F 6E 74 72 6F 6C 3A 20 6D 61 78 2D 61 67 65 3D 30 0D 0A 55 70 67 72 61 64 65 2D 49 6E 73 65 63 75 72 65 2D 52 65 71 75 65 73 74 73 3A 20 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 57 69 6E 64 6F 77 73 20 4E 54 20 31 30 2E 30 3B 20 57 69 6E 36 34 3B 20 78 36 34 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 37 2E 33 36 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 43 68 72 6F 6D 65 2F 36 35 2E 30 2E 33 33 32 35 2E 31 38 31 20 53 61 66 61 72 69 2F 35 33 37 2E 33 36 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 68 74 6D 6C 2B 78 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 6D 6C 3B 71 3D 30 2E 39 2C 69 6D 61 67 65 2F 77 65 62 70 2C 69 6D 61 67 65 2F 61 70 6E 67 2C 2A 2F 2A 3B 71 3D 30 2E 38 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 20 64 65 66 6C 61 74 65 2C 20 62 72 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 2C 7A 68 3B 71 3D 30 2E 39 0D 0A 0D 0A)
+2018-03-23 16:25:59  [ NioProcessor-3:29407 ] - [ INFO ]  input  session:2
+2018-03-23 16:25:59  [ NioProcessor-3:29411 ] - [ INFO ]  CLOSED
+2018-03-23 16:25:59  [ NioProcessor-3:29412 ] - [ INFO ]  close session:2
+2018-03-23 16:30:10  [ NioProcessor-2:280396 ] - [ INFO ]  input  session:1
+2018-03-23 16:30:10  [ NioProcessor-2:280399 ] - [ INFO ]  CLOSED
+2018-03-23 16:30:10  [ NioProcessor-2:280399 ] - [ INFO ]  close session:1
+2018-03-23 16:30:32  [ NioProcessor-4:302310 ] - [ INFO ]  CREATED
+2018-03-23 16:30:32  [ NioProcessor-4:302310 ] - [ INFO ]  create session:3
+2018-03-23 16:30:32  [ NioProcessor-4:302311 ] - [ INFO ]  OPENED
+2018-03-23 16:30:32  [ NioProcessor-4:302311 ] - [ INFO ]  open session:3
+2018-03-23 16:30:32  [ NioProcessor-4:302312 ] - [ INFO ]  RECEIVED: HeapBuffer[pos=0 lim=397 cap=2048: 47 45 54 20 2F 3F 64 73 61 64 6B 61 73 6A 64 20...]
+2018-03-23 16:30:32  [ NioProcessor-5:302312 ] - [ INFO ]  CREATED
+2018-03-23 16:30:32  [ NioProcessor-5:302313 ] - [ INFO ]  create session:4
+2018-03-23 16:30:32  [ NioProcessor-4:302313 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+org.apache.mina.filter.codec.ProtocolDecoderException: org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856 (Hexdump: 47 45 54 20 2F 3F 64 73 61 64 6B 61 73 6A 64 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 20 31 32 37 2E 30 2E 30 2E 31 3A 35 30 30 30 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 55 70 67 72 61 64 65 2D 49 6E 73 65 63 75 72 65 2D 52 65 71 75 65 73 74 73 3A 20 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 57 69 6E 64 6F 77 73 20 4E 54 20 31 30 2E 30 3B 20 57 69 6E 36 34 3B 20 78 36 34 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 37 2E 33 36 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 43 68 72 6F 6D 65 2F 36 35 2E 30 2E 33 33 32 35 2E 31 38 31 20 53 61 66 61 72 69 2F 35 33 37 2E 33 36 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 68 74 6D 6C 2B 78 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 6D 6C 3B 71 3D 30 2E 39 2C 69 6D 61 67 65 2F 77 65 62 70 2C 69 6D 61 67 65 2F 61 70 6E 67 2C 2A 2F 2A 3B 71 3D 30 2E 38 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 20 64 65 66 6C 61 74 65 2C 20 62 72 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 2C 7A 68 3B 71 3D 30 2E 39 0D 0A 0D 0A)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:239)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.filter.logging.LoggingFilter.messageReceived(LoggingFilter.java:208)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:535)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:697)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856
+	at org.apache.mina.core.buffer.AbstractIoBuffer.prefixedDataAvailable(AbstractIoBuffer.java:2305)
+	at org.apache.mina.filter.codec.serialization.ObjectSerializationDecoder.doDecode(ObjectSerializationDecoder.java:93)
+	at org.apache.mina.filter.codec.CumulativeProtocolDecoder.decode(CumulativeProtocolDecoder.java:176)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:230)
+	... 19 more
+2018-03-23 16:30:32  [ NioProcessor-4:302314 ] - [ INFO ]  ex session:3
+2018-03-23 16:30:32  [ NioProcessor-5:302313 ] - [ INFO ]  OPENED
+2018-03-23 16:30:32  [ NioProcessor-5:302315 ] - [ INFO ]  open session:4
+2018-03-23 16:30:32  [ NioProcessor-4:302315 ] - [ ERROR ]  ex:org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856 (Hexdump: 47 45 54 20 2F 3F 64 73 61 64 6B 61 73 6A 64 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 20 31 32 37 2E 30 2E 30 2E 31 3A 35 30 30 30 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 55 70 67 72 61 64 65 2D 49 6E 73 65 63 75 72 65 2D 52 65 71 75 65 73 74 73 3A 20 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 57 69 6E 64 6F 77 73 20 4E 54 20 31 30 2E 30 3B 20 57 69 6E 36 34 3B 20 78 36 34 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 37 2E 33 36 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 43 68 72 6F 6D 65 2F 36 35 2E 30 2E 33 33 32 35 2E 31 38 31 20 53 61 66 61 72 69 2F 35 33 37 2E 33 36 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 68 74 6D 6C 2B 78 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 6D 6C 3B 71 3D 30 2E 39 2C 69 6D 61 67 65 2F 77 65 62 70 2C 69 6D 61 67 65 2F 61 70 6E 67 2C 2A 2F 2A 3B 71 3D 30 2E 38 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 20 64 65 66 6C 61 74 65 2C 20 62 72 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 2C 7A 68 3B 71 3D 30 2E 39 0D 0A 0D 0A)
+2018-03-23 16:30:51  [ NioProcessor-4:321195 ] - [ INFO ]  input  session:3
+2018-03-23 16:30:51  [ NioProcessor-4:321196 ] - [ INFO ]  CLOSED
+2018-03-23 16:30:51  [ NioProcessor-4:321196 ] - [ INFO ]  close session:3
+2018-03-23 16:31:12  [ NioProcessor-5:342082 ] - [ INFO ]  input  session:4
+2018-03-23 16:31:12  [ NioProcessor-5:342083 ] - [ INFO ]  CLOSED
+2018-03-23 16:31:12  [ NioProcessor-5:342083 ] - [ INFO ]  close session:4
+2018-03-23 16:34:57  [ NioProcessor-2:0 ] - [ INFO ]  CREATED
+2018-03-23 16:34:57  [ NioProcessor-2:9 ] - [ INFO ]  create session:1
+2018-03-23 16:34:57  [ NioProcessor-2:10 ] - [ INFO ]  OPENED
+2018-03-23 16:34:57  [ NioProcessor-2:10 ] - [ INFO ]  open session:1
+2018-03-23 16:34:57  [ NioProcessor-2:12 ] - [ INFO ]  RECEIVED: HeapBuffer[pos=0 lim=387 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...]
+2018-03-23 16:34:57  [ NioProcessor-2:14 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+org.apache.mina.filter.codec.ProtocolDecoderException: org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856 (Hexdump: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 20 31 32 37 2E 30 2E 30 2E 31 3A 35 30 30 30 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 55 70 67 72 61 64 65 2D 49 6E 73 65 63 75 72 65 2D 52 65 71 75 65 73 74 73 3A 20 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 57 69 6E 64 6F 77 73 20 4E 54 20 31 30 2E 30 3B 20 57 69 6E 36 34 3B 20 78 36 34 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 37 2E 33 36 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 43 68 72 6F 6D 65 2F 36 35 2E 30 2E 33 33 32 35 2E 31 38 31 20 53 61 66 61 72 69 2F 35 33 37 2E 33 36 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 68 74 6D 6C 2B 78 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 6D 6C 3B 71 3D 30 2E 39 2C 69 6D 61 67 65 2F 77 65 62 70 2C 69 6D 61 67 65 2F 61 70 6E 67 2C 2A 2F 2A 3B 71 3D 30 2E 38 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 20 64 65 66 6C 61 74 65 2C 20 62 72 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 2C 7A 68 3B 71 3D 30 2E 39 0D 0A 0D 0A)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:239)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.filter.logging.LoggingFilter.messageReceived(LoggingFilter.java:208)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:535)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:697)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856
+	at org.apache.mina.core.buffer.AbstractIoBuffer.prefixedDataAvailable(AbstractIoBuffer.java:2305)
+	at org.apache.mina.filter.codec.serialization.ObjectSerializationDecoder.doDecode(ObjectSerializationDecoder.java:93)
+	at org.apache.mina.filter.codec.CumulativeProtocolDecoder.decode(CumulativeProtocolDecoder.java:176)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:230)
+	... 19 more
+2018-03-23 16:34:57  [ NioProcessor-3:22 ] - [ INFO ]  CREATED
+2018-03-23 16:34:57  [ NioProcessor-3:173 ] - [ INFO ]  create session:2
+2018-03-23 16:34:57  [ NioProcessor-3:174 ] - [ INFO ]  OPENED
+2018-03-23 16:34:57  [ NioProcessor-2:173 ] - [ INFO ]  ex session:1
+2018-03-23 16:34:57  [ NioProcessor-3:174 ] - [ INFO ]  open session:2
+2018-03-23 16:34:57  [ NioProcessor-2:175 ] - [ ERROR ]  ex:org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856 (Hexdump: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 20 31 32 37 2E 30 2E 30 2E 31 3A 35 30 30 30 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 55 70 67 72 61 64 65 2D 49 6E 73 65 63 75 72 65 2D 52 65 71 75 65 73 74 73 3A 20 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 57 69 6E 64 6F 77 73 20 4E 54 20 31 30 2E 30 3B 20 57 69 6E 36 34 3B 20 78 36 34 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 37 2E 33 36 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 43 68 72 6F 6D 65 2F 36 35 2E 30 2E 33 33 32 35 2E 31 38 31 20 53 61 66 61 72 69 2F 35 33 37 2E 33 36 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 68 74 6D 6C 2B 78 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 6D 6C 3B 71 3D 30 2E 39 2C 69 6D 61 67 65 2F 77 65 62 70 2C 69 6D 61 67 65 2F 61 70 6E 67 2C 2A 2F 2A 3B 71 3D 30 2E 38 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 20 64 65 66 6C 61 74 65 2C 20 62 72 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 2C 7A 68 3B 71 3D 30 2E 39 0D 0A 0D 0A)
+2018-03-23 16:35:24  [ NioProcessor-3:27115 ] - [ INFO ]  input  session:2
+2018-03-23 16:35:24  [ NioProcessor-3:27117 ] - [ INFO ]  CLOSED
+2018-03-23 16:35:24  [ NioProcessor-3:27117 ] - [ INFO ]  close session:2
+2018-03-23 16:38:49  [ NioProcessor-2:232740 ] - [ INFO ]  input  session:1
+2018-03-23 16:38:49  [ NioProcessor-2:232742 ] - [ INFO ]  CLOSED
+2018-03-23 16:38:49  [ NioProcessor-2:232742 ] - [ INFO ]  close session:1
+2018-03-23 16:49:58  [ NioProcessor-2:0 ] - [ INFO ]  CREATED
+2018-03-23 16:49:58  [ NioProcessor-3:0 ] - [ INFO ]  CREATED
+2018-03-23 16:49:58  [ NioProcessor-3:9 ] - [ INFO ]  create session:2
+2018-03-23 16:49:58  [ NioProcessor-2:9 ] - [ INFO ]  create session:1
+2018-03-23 16:49:58  [ NioProcessor-2:9 ] - [ INFO ]  OPENED
+2018-03-23 16:49:58  [ NioProcessor-3:9 ] - [ INFO ]  OPENED
+2018-03-23 16:49:58  [ NioProcessor-3:10 ] - [ INFO ]  open session:2
+2018-03-23 16:49:58  [ NioProcessor-2:10 ] - [ INFO ]  open session:1
+2018-03-23 16:49:58  [ NioProcessor-2:13 ] - [ INFO ]  RECEIVED: HeapBuffer[pos=0 lim=387 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...]
+2018-03-23 16:49:58  [ NioProcessor-2:15 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+org.apache.mina.filter.codec.ProtocolDecoderException: org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856 (Hexdump: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 20 31 32 37 2E 30 2E 30 2E 31 3A 35 30 30 30 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 55 70 67 72 61 64 65 2D 49 6E 73 65 63 75 72 65 2D 52 65 71 75 65 73 74 73 3A 20 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 57 69 6E 64 6F 77 73 20 4E 54 20 31 30 2E 30 3B 20 57 69 6E 36 34 3B 20 78 36 34 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 37 2E 33 36 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 43 68 72 6F 6D 65 2F 36 35 2E 30 2E 33 33 32 35 2E 31 38 31 20 53 61 66 61 72 69 2F 35 33 37 2E 33 36 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 68 74 6D 6C 2B 78 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 6D 6C 3B 71 3D 30 2E 39 2C 69 6D 61 67 65 2F 77 65 62 70 2C 69 6D 61 67 65 2F 61 70 6E 67 2C 2A 2F 2A 3B 71 3D 30 2E 38 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 20 64 65 66 6C 61 74 65 2C 20 62 72 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 2C 7A 68 3B 71 3D 30 2E 39 0D 0A 0D 0A)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:239)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.filter.logging.LoggingFilter.messageReceived(LoggingFilter.java:208)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:535)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:697)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856
+	at org.apache.mina.core.buffer.AbstractIoBuffer.prefixedDataAvailable(AbstractIoBuffer.java:2305)
+	at org.apache.mina.filter.codec.serialization.ObjectSerializationDecoder.doDecode(ObjectSerializationDecoder.java:93)
+	at org.apache.mina.filter.codec.CumulativeProtocolDecoder.decode(CumulativeProtocolDecoder.java:176)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:230)
+	... 19 more
+2018-03-23 16:49:58  [ NioProcessor-2:19 ] - [ INFO ]  ex session:1
+2018-03-23 16:49:58  [ NioProcessor-2:20 ] - [ ERROR ]  ex:org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856 (Hexdump: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 20 31 32 37 2E 30 2E 30 2E 31 3A 35 30 30 30 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 55 70 67 72 61 64 65 2D 49 6E 73 65 63 75 72 65 2D 52 65 71 75 65 73 74 73 3A 20 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 57 69 6E 64 6F 77 73 20 4E 54 20 31 30 2E 30 3B 20 57 69 6E 36 34 3B 20 78 36 34 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 37 2E 33 36 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 43 68 72 6F 6D 65 2F 36 35 2E 30 2E 33 33 32 35 2E 31 38 31 20 53 61 66 61 72 69 2F 35 33 37 2E 33 36 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 68 74 6D 6C 2B 78 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 6D 6C 3B 71 3D 30 2E 39 2C 69 6D 61 67 65 2F 77 65 62 70 2C 69 6D 61 67 65 2F 61 70 6E 67 2C 2A 2F 2A 3B 71 3D 30 2E 38 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 20 64 65 66 6C 61 74 65 2C 20 62 72 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 2C 7A 68 3B 71 3D 30 2E 39 0D 0A 0D 0A)
+2018-03-23 16:50:36  [ NioProcessor-3:38239 ] - [ INFO ]  input  session:2
+2018-03-23 16:50:36  [ NioProcessor-3:38240 ] - [ INFO ]  CLOSED
+2018-03-23 16:50:36  [ NioProcessor-3:38241 ] - [ INFO ]  close session:2
+2018-03-23 16:51:48  [ NioProcessor-2:109829 ] - [ INFO ]  input  session:1
+2018-03-23 16:51:48  [ NioProcessor-2:109832 ] - [ INFO ]  CLOSED
+2018-03-23 16:51:48  [ NioProcessor-2:109833 ] - [ INFO ]  close session:1
+2018-03-23 16:52:12  [ NioProcessor-2:0 ] - [ INFO ]  CREATED
+2018-03-23 16:52:12  [ NioProcessor-3:0 ] - [ INFO ]  CREATED
+2018-03-23 16:52:12  [ NioProcessor-2:7 ] - [ INFO ]  create session:1
+2018-03-23 16:52:12  [ NioProcessor-3:7 ] - [ INFO ]  create session:2
+2018-03-23 16:52:12  [ NioProcessor-2:7 ] - [ INFO ]  OPENED
+2018-03-23 16:52:12  [ NioProcessor-3:7 ] - [ INFO ]  OPENED
+2018-03-23 16:52:12  [ NioProcessor-2:8 ] - [ INFO ]  open session:1
+2018-03-23 16:52:12  [ NioProcessor-3:8 ] - [ INFO ]  open session:2
+2018-03-23 16:52:12  [ NioProcessor-2:11 ] - [ INFO ]  RECEIVED: HeapBuffer[pos=0 lim=387 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...]
+2018-03-23 16:52:12  [ NioProcessor-2:14 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+org.apache.mina.filter.codec.ProtocolDecoderException: org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856 (Hexdump: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 20 31 32 37 2E 30 2E 30 2E 31 3A 35 30 30 30 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 55 70 67 72 61 64 65 2D 49 6E 73 65 63 75 72 65 2D 52 65 71 75 65 73 74 73 3A 20 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 57 69 6E 64 6F 77 73 20 4E 54 20 31 30 2E 30 3B 20 57 69 6E 36 34 3B 20 78 36 34 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 37 2E 33 36 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 43 68 72 6F 6D 65 2F 36 35 2E 30 2E 33 33 32 35 2E 31 38 31 20 53 61 66 61 72 69 2F 35 33 37 2E 33 36 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 68 74 6D 6C 2B 78 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 6D 6C 3B 71 3D 30 2E 39 2C 69 6D 61 67 65 2F 77 65 62 70 2C 69 6D 61 67 65 2F 61 70 6E 67 2C 2A 2F 2A 3B 71 3D 30 2E 38 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 20 64 65 66 6C 61 74 65 2C 20 62 72 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 2C 7A 68 3B 71 3D 30 2E 39 0D 0A 0D 0A)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:239)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.filter.logging.LoggingFilter.messageReceived(LoggingFilter.java:208)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:535)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:697)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856
+	at org.apache.mina.core.buffer.AbstractIoBuffer.prefixedDataAvailable(AbstractIoBuffer.java:2305)
+	at org.apache.mina.filter.codec.serialization.ObjectSerializationDecoder.doDecode(ObjectSerializationDecoder.java:93)
+	at org.apache.mina.filter.codec.CumulativeProtocolDecoder.decode(CumulativeProtocolDecoder.java:176)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:230)
+	... 19 more
+2018-03-23 16:52:12  [ NioProcessor-2:17 ] - [ INFO ]  ex session:1
+2018-03-23 16:52:12  [ NioProcessor-2:18 ] - [ ERROR ]  ex:org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856 (Hexdump: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 20 31 32 37 2E 30 2E 30 2E 31 3A 35 30 30 30 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 55 70 67 72 61 64 65 2D 49 6E 73 65 63 75 72 65 2D 52 65 71 75 65 73 74 73 3A 20 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 57 69 6E 64 6F 77 73 20 4E 54 20 31 30 2E 30 3B 20 57 69 6E 36 34 3B 20 78 36 34 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 37 2E 33 36 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 43 68 72 6F 6D 65 2F 36 35 2E 30 2E 33 33 32 35 2E 31 38 31 20 53 61 66 61 72 69 2F 35 33 37 2E 33 36 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 68 74 6D 6C 2B 78 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 6D 6C 3B 71 3D 30 2E 39 2C 69 6D 61 67 65 2F 77 65 62 70 2C 69 6D 61 67 65 2F 61 70 6E 67 2C 2A 2F 2A 3B 71 3D 30 2E 38 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 20 64 65 66 6C 61 74 65 2C 20 62 72 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 2C 7A 68 3B 71 3D 30 2E 39 0D 0A 0D 0A)
+2018-03-23 16:52:42  [ NioProcessor-3:30405 ] - [ INFO ]  input  session:2
+2018-03-23 16:52:42  [ NioProcessor-3:30406 ] - [ INFO ]  CLOSED
+2018-03-23 16:52:42  [ NioProcessor-3:30407 ] - [ INFO ]  close session:2
+2018-03-23 16:53:14  [ NioProcessor-2:0 ] - [ INFO ]  CREATED
+2018-03-23 16:53:14  [ NioProcessor-3:0 ] - [ INFO ]  CREATED
+2018-03-23 16:53:14  [ NioProcessor-3:8 ] - [ INFO ]  create session:2
+2018-03-23 16:53:14  [ NioProcessor-2:8 ] - [ INFO ]  create session:1
+2018-03-23 16:53:14  [ NioProcessor-3:9 ] - [ INFO ]  OPENED
+2018-03-23 16:53:14  [ NioProcessor-2:9 ] - [ INFO ]  OPENED
+2018-03-23 16:53:14  [ NioProcessor-3:9 ] - [ INFO ]  open session:2
+2018-03-23 16:53:14  [ NioProcessor-2:10 ] - [ INFO ]  open session:1
+2018-03-23 16:53:14  [ NioProcessor-2:12 ] - [ INFO ]  RECEIVED: HeapBuffer[pos=0 lim=413 cap=2048: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A...]
+2018-03-23 16:53:14  [ NioProcessor-2:15 ] - [ WARN ]  EXCEPTION, please implement com.MyHttpHandler.exceptionCaught() for proper handling:
+org.apache.mina.filter.codec.ProtocolDecoderException: org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856 (Hexdump: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 20 31 32 37 2E 30 2E 30 2E 31 3A 35 30 30 30 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 43 61 63 68 65 2D 43 6F 6E 74 72 6F 6C 3A 20 6D 61 78 2D 61 67 65 3D 30 0D 0A 55 70 67 72 61 64 65 2D 49 6E 73 65 63 75 72 65 2D 52 65 71 75 65 73 74 73 3A 20 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 57 69 6E 64 6F 77 73 20 4E 54 20 31 30 2E 30 3B 20 57 69 6E 36 34 3B 20 78 36 34 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 37 2E 33 36 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 43 68 72 6F 6D 65 2F 36 35 2E 30 2E 33 33 32 35 2E 31 38 31 20 53 61 66 61 72 69 2F 35 33 37 2E 33 36 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 68 74 6D 6C 2B 78 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 6D 6C 3B 71 3D 30 2E 39 2C 69 6D 61 67 65 2F 77 65 62 70 2C 69 6D 61 67 65 2F 61 70 6E 67 2C 2A 2F 2A 3B 71 3D 30 2E 38 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 20 64 65 66 6C 61 74 65 2C 20 62 72 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 2C 7A 68 3B 71 3D 30 2E 39 0D 0A 0D 0A)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:239)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.filter.logging.LoggingFilter.messageReceived(LoggingFilter.java:208)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:535)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:697)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:651)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:640)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:68)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1097)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856
+	at org.apache.mina.core.buffer.AbstractIoBuffer.prefixedDataAvailable(AbstractIoBuffer.java:2305)
+	at org.apache.mina.filter.codec.serialization.ObjectSerializationDecoder.doDecode(ObjectSerializationDecoder.java:93)
+	at org.apache.mina.filter.codec.CumulativeProtocolDecoder.decode(CumulativeProtocolDecoder.java:176)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:230)
+	... 19 more
+2018-03-23 16:53:14  [ NioProcessor-2:19 ] - [ INFO ]  ex session:1
+2018-03-23 16:53:14  [ NioProcessor-2:20 ] - [ ERROR ]  ex:org.apache.mina.core.buffer.BufferDataException: dataLength: 1195725856 (Hexdump: 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 20 31 32 37 2E 30 2E 30 2E 31 3A 35 30 30 30 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 43 61 63 68 65 2D 43 6F 6E 74 72 6F 6C 3A 20 6D 61 78 2D 61 67 65 3D 30 0D 0A 55 70 67 72 61 64 65 2D 49 6E 73 65 63 75 72 65 2D 52 65 71 75 65 73 74 73 3A 20 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 57 69 6E 64 6F 77 73 20 4E 54 20 31 30 2E 30 3B 20 57 69 6E 36 34 3B 20 78 36 34 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 37 2E 33 36 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 43 68 72 6F 6D 65 2F 36 35 2E 30 2E 33 33 32 35 2E 31 38 31 20 53 61 66 61 72 69 2F 35 33 37 2E 33 36 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 68 74 6D 6C 2B 78 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 6D 6C 3B 71 3D 30 2E 39 2C 69 6D 61 67 65 2F 77 65 62 70 2C 69 6D 61 67 65 2F 61 70 6E 67 2C 2A 2F 2A 3B 71 3D 30 2E 38 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 20 64 65 66 6C 61 74 65 2C 20 62 72 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 2C 7A 68 3B 71 3D 30 2E 39 0D 0A 0D 0A)
+2018-03-23 16:53:25  [ NioProcessor-3:11317 ] - [ INFO ]  input  session:2
+2018-03-23 16:53:25  [ NioProcessor-3:11318 ] - [ INFO ]  CLOSED
+2018-03-23 16:53:25  [ NioProcessor-3:11319 ] - [ INFO ]  close session:2
+2018-03-23 16:53:39  [ NioProcessor-2:25600 ] - [ INFO ]  input  session:1
+2018-03-23 16:53:39  [ NioProcessor-2:25602 ] - [ INFO ]  CLOSED
+2018-03-23 16:53:39  [ NioProcessor-2:25603 ] - [ INFO ]  close session:1
